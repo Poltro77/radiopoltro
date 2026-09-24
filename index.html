@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html class="sl-theme-dark" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An open-source web template powered by Shoelace for creating a radio directory.">
+    <meta property="og:title" content="Radiohub - Open-source Radio Directory Template">
+    <meta name="og:description"
+        content="An open-source web template powered by Shoelace for creating a radio directory.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digitalmalayali.github.io/radiohub">
+    <meta property="og:image" content="https://digitalmalayali.github.io/radiohub/assets/preview.webp">
+    <title>RadioPoltro</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/dark.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <sl-button class="logo" variant="text" size="large" href="/radiohub">
+                <sl-icon slot="prefix" name="broadcast-pin" style="font-size: 2rem;"></sl-icon>
+                RADIOPOLTRO
+            </sl-button>
+            <sl-icon-button name="github" label="GitHub" style="font-size: 1.2rem;"
+                href="https://github.com/digitalmalayali/radiohub" target="_blank"></sl-icon-button>
+        </nav>
+    </header>
+
+    <main>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/gold.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Radio gold Instrumental</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website"
+                            href="https://www.radiogold.com.br/goldinstrumental/player-32kbps" target="_blank"></sl-icon-button>
+                    </div>
+                    Música Istrumental de Qualidade
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://stream.rcast.net/72297"
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/k7classics.jpeg" alt="k7radioclassics" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>k7radioclassics</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website"
+                            href="https://k7radioclassics.com.br/" target="_blank"></sl-icon-button>
+                    </div>
+                    A rádio flasback K7
+                    <div class="badges">
+                        <sl-badge variant="success">Santos / SP<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://servidor30.brlogic.com:7192/live"
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/saudade.jpeg" alt="saudade logo" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Saudade FM</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.saudadefm.com.br/"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Retro de Qualidade
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://27593.live.streamtheworld.com:443/SAUDADE_FMAAC.aac" type="audio/mpeg"
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+    
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/kakarecos.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Só kakarecos</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://stream.sokakarecos.com:9100/stream"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    volte ao Passado
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://stream.sokakarecos.com:9100/stream" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/mgtlovehits.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>MGT Love Hits</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.mgtradio.net/lovehits"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Para apaixonados
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://api-cast.mgtradio.net/radio/8010/aac" type="audio/mpeg"
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/Rádio Studio Souto - Sertanejo Raizes.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Studio Souto Sertanejo Raiz</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.radiosnet.com/aovivo/radio-studio-souto-sertanejo-raizes/38808"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Sertanejo Raiz
+                    <div class="badges">
+                        <sl-badge variant="success">Goias<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://centova5.transmissaodigital.com:20030/stream" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/studiosoutorobertocarlos.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Studio Souto Roberto Carlos</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.radiosnet.com/aovivo/radio-studio-souto-roberto-carlos/38812"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Roberto Carlos!!!, precisa falar?
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://centova5.transmissaodigital.com:20032/stream" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/coisasbacanas.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>radiocoisasbacanas</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://radiocoisasbacanas.com.br/"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Retro de Qualidade
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://s18.maxcast.com.br:8256/live?id=1288520132610" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/fitacassete.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Fita Cassete</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.radios.com.br/aovivo/fita-cassete/162745"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Retro 
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://server01.ouvir.radio.br:8018/stream?1790274700660" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/studiosoutojovemguarda.jpeg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Studio Souto Jovem Guarda</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.radios.com.br/aovivo/radio-studio-souto-jovem-guarda/39047"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Jovem Guarda
+                    <div class="badges">
+                        <sl-badge variant="success">São Paulo<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://centova5.transmissaodigital.com:20021/stream?1790275061873" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        </main>
+
+    <footer>
+        <small>This website is <a href="https://github.com/digitalmalayali/radiohub" target="_blank">open-source</a>.
+            Code is licensed under <a href="https://github.com/digitalmalayali/radiohub/blob/main/LICENSE"
+                target="_blank">MIT</a>.</small>
+        <p>© 2026- todos os direitos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="script.js" async></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("sw.js");
+        }
+      </script>
+</body>
+
+</html>
