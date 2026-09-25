@@ -20,19 +20,29 @@
         src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
     <link rel="manifest" href="manifest.json">
 </head>
+    
 
 <body>
     <header>
         <nav>
             <sl-button class="logo" variant="text" size="large" href="/radiohub">
                 <sl-icon slot="prefix" name="broadcast-pin" style="font-size: 2rem;"></sl-icon>
-                RADIOPOLTRO
+                RADIOPOLTRO  
             </sl-button>
             <sl-icon-button name="github" label="GitHub" style="font-size: 1.2rem;"
                 href="https://github.com/digitalmalayali/radiohub" target="_blank"></sl-icon-button>
         </nav>
     </header>
 
+        
+    </header>
+
+   
+    <div class="hero-icon">
+        <img src="assets/radiopoltro.jpeg" alt="Ícone Rádio Poltro" />
+    </div>
+
+    
     <main>
 
         <sl-card>
@@ -317,7 +327,8 @@
             </div>
         </sl-card>
 
-        <sl-card>
+       
+         <sl-card>
             <div class="card-container">
                 <div class="logo-container">
                     <img class="radio-logo" src="assets/studiosoutojovemguarda.jpeg" alt="" />
@@ -340,6 +351,100 @@
                     </div>
                     <div class="footer">
                         <audio class="audio" src="https://centova5.transmissaodigital.com:20021/stream?1790275061873" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+         <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/kcsm.jpg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>KCSM</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.kcsm.org/;"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Jazz
+                    <div class="badges">
+                        <sl-badge variant="success">EUA<span class="fi fi-us fis"></span></sl-badge>
+                        <sl-badge variant="success">EUA</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://ice7.securenetsystems.net/KCSM2?uuid=gw04r0anh&dist=nprgrove" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+        
+         <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/josejose.jpg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Miled Music José José</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.radio-en-vivo.mx/miled-music-jose-jose"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    José José - Principe do México
+                    <div class="badges">
+                        <sl-badge variant="success">Mexico<span class="fi fi-mx fis"></span></sl-badge>
+                        <sl-badge variant="success">Mexico</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://miledmusic95-cybertec.radioca.st/stream" 
+                            preload="none"></audio>
+                        <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
+                            style="display:none;"></sl-range>
+                    </div>
+                </div>
+            </div>
+        </sl-card>
+
+         <sl-card>
+            <div class="card-container">
+                <div class="logo-container">
+                    <img class="radio-logo" src="assets/Milionário e José Rico.jpg" alt="" />
+                    <sl-button class="play-radio" variant="primary">
+                        <sl-icon slot="prefix" name="play-circle-fill"></sl-icon>
+                        Play
+                    </sl-button>
+                </div>
+                <div class="info">
+                    <div class="header">
+                        <strong>Milionário e José Rico</strong>
+                        <sl-icon-button name="arrow-up-right" label="Visit Website" href="https://www.radios.com.br/aovivo/radio-milionario-e-jose-rico/280542"
+                            target="_blank"></sl-icon-button>
+                    </div>
+                    Milionário e José Rico
+                    <div class="badges">
+                        <sl-badge variant="success">Brasil<span class="fi fi-br fis"></span></sl-badge>
+                        <sl-badge variant="success">Brasil</sl-badge>
+                        <sl-badge variant="success">Music</sl-badge>
+                    </div>
+                    <div class="footer">
+                        <audio class="audio" src="https://stm16.voxhd.com.br:13166/stream?1790337941040" 
                             preload="none"></audio>
                         <sl-range class="volume-control" min="0" max="100" value="20" aria-label="volume-control"
                             style="display:none;"></sl-range>
