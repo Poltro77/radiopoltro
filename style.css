@@ -54,6 +54,8 @@ main {
     gap: var(--sl-spacing-large);
 }
 
+
+
 .info {
     display: flex;
     flex-direction: column;
@@ -81,4 +83,41 @@ footer small {
     footer {
         flex-direction: column
     }
+}
+
+/* Container da imagem de destaque */
+.hero-icon {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    padding: 2rem 1rem; /* Espaçamento superior e inferior */
+    width: 100%;
+}
+
+/* Estilização da imagem */
+.hero-icon img {
+    max-width: 100%; /* Garante que não estoure a tela em celulares */
+    width: 300px;    /* Tamanho padrão do "ícone" - ajuste como preferir */
+    height: auto;    /* Mantém a proporção */
+    border-radius: 50%; /* Deixa a imagem redonda (opcional) */
+    /* OU use border-radius: 20px; para cantos arredondados */
+    
+    /* Efeito de destaque (sombra e borda) */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); 
+    border: 4px solid #ffcc00; /* Cor da borda (amarelo, combinando com a imagem) */
+    
+    /* Efeito de transição suave */
+    transition: transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse (opcional) */
+.hero-icon img:hover {
+    transform: scale(1.05); /* Aumenta levemente */
+}
+
+.hero-icon img {
+    width: 100%;          /* Ocupa toda a largura disponível */
+    max-width: 150px;     /* Mas não passa de 600px de largura */
+    border-radius: 15px;  /* Cantos arredondados */
+    /* ... resto do estilo ... */
 }
